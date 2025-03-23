@@ -10,10 +10,10 @@ int main() {
       float area_em_km = 1521;
       float pib = 271975123100;
       int numero_de_pontos_turisticos = 60;
-      float densidade_populacional = 752826;
-      float pib_per_capita = 7270;
+      int densidade_populacional= 752826;
+      int pib_per_capita = 7270;
       
-      int media;
+      long int media;
         media = densidade_populacional / pib_per_capita;
        
        printf("Pais : %s \n", pais);
@@ -23,9 +23,9 @@ int main() {
        printf("Área em Km2 : %.2f Km2 \n", area_em_km);
        printf("PIB : %.2f \n", pib);
        printf("Números de Pontos Túristicos : %d \n", numero_de_pontos_turisticos);  
-          printf("Densidade Populacional : %d \n", media);
-          printf("PIB Per Capita : %d \n", media);
-          printf("Densidade populacional e PIB Per Capita : %d \n", media); 
+          printf("Densidade Populacional : %ld \n", densidade_populacional);
+          printf("PIB Per Capita : %ld \n", pib_per_capita);
+          printf("Densidade populacional e PIB Per Capita : %ld\n", media); 
 
        printf("____\n");
       char pais2 [50]= "Estados Unidos";
@@ -35,11 +35,11 @@ int main() {
       float area_em_km2 = 7838;
       float pib2 = 2000000000000;
       int numero_de_pontos_turisticos2 = 75;
-      float densidade_populacional2 = 752826;
-      float pib_per_capita2 = 7270;
+      int densidade_populacional2 = 1042967;
+      int pib_per_capita2 = 81630;
       
-      int media2;
-        media = densidade_populacional2 / pib_per_capita2;
+       long int media2;
+         media2 = densidade_populacional2 / pib_per_capita2;
        
           printf("Pais : %s \n", pais2);
           printf("Código da Carta : %s \n", codigo_da_carta2);
@@ -48,9 +48,9 @@ int main() {
           printf("Área em Km2 : %.2f \n", area_em_km2);
           printf("PIB : %.2f \n", pib2);
           printf("Números de Pontos Túristicos : %d \n", numero_de_pontos_turisticos2);  
-            printf("Densidade Populacional : %d \n", media2);
-            printf("PIB Per Capita : %d \n", media2);
-            printf("Densidade populacional e PIB Per Capita : %d \n", media2);  
+            printf("Densidade Populacional : %d \n", densidade_populacional2);
+            printf("PIB Per Capita : %d \n", pib_per_capita2);
+            printf("Densidade populacional e PIB Per Capita : %ld\n", media2);  
         
     return 0;
 }
